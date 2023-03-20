@@ -1,0 +1,13 @@
+.btn-add{
+    border-width: thin;
+    border-color: #00f;
+    border-style: solid;
+    border-radius: 10px;
+    width: 60px;
+}
+
+.description{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

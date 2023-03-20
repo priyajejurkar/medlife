@@ -1,0 +1,89 @@
+<div class="container-fluid  bg-search text-white p-5">
+
+    <h4 class="text-center ">Get Huge Savings on Medicines</h4>
+    <div class="d-flex flex-row mb-3 mt-3 justify-content-center">
+        <div class="p-2"><i class="fa-sharp fa-solid fa-circle-check mx-1"></i>100 % Genuine Medicines
+        </div>
+        <div class="p-2"><i class="fa-sharp fa-solid fa-circle-check mx-1"></i>Trusted Pharmacies</div>
+        <div class="p-2"><i class="fa-sharp fa-solid fa-circle-check mx-1"></i>Delivery to your doorstep</div>
+        <div class="p-2"><i class="fa-sharp fa-solid fa-circle-check mx-1"></i>Store Pick up</div>
+    </div>
+</div>
+<div
+    class="input-group input-group-lg text-body position-relative top-30 start-50 translate-middle  w-75 rounded-3  mt-0">
+    <span class="input-group-text bg-body p-3 fs-7 fw-normal" id="inputGroup-sizing-lg text-dark">Bengaluru 560029 <i
+            class="bi-chevron-down ms-4 text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i> </span>
+    <input type="search" class="form-control fs-5" placeholder="Search Medicines" aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-lg">
+    <span class="input-group-text  bg-body p-3 text-primary fw-semibold fs-7" id="inputGroup-sizing-lg"> <i
+            class="bi-search me-2 fw-semibold"></i>Search</span>
+</div>
+
+<div class="container mt-5 ">
+    <img src="https://www.medibuddy.in/assets/banners/medicine-page.webp" alt="" width="100%">
+</div>
+
+<div class="container mt-5">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item  d-flex align-content-space-between ">
+                <div class=" w-50 ">
+                    <img src="https://www.medibuddy.in/assets/banners/otcStore.webp" class="card-img-top" alt="...">
+                </div>
+                &nbsp; &nbsp;
+                <div class=" w-50 ">
+                    <img src="https://www.medibuddy.in/assets/offers/CallOffer.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class=" w-50 ">
+                    <img src="https://www.medibuddy.in/assets/offers/CallOffer.png" class="card-img-top" alt="...">
+                </div>
+                 <div class="w-50">
+                    <img src="https://www.medibuddy.in/assets/offers/discount-home-delivered.png" class="card-img-top"
+                        alt="...">
+                </div> 
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container mt-5">
+    <h3 class="fs-3">Top Deals</h3>
+    <app-top-deals></app-top-deals>
+    
+</div>
+
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+        
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="validationCustom02" class="form-label fw-semibold fs-5">Set your location</label>
+
+            <input type="text" class="form-control" id="validationCustom01" value="" [(ngModel)]="pincode" maxlength="6" required>
+            <div class="invalid-feedback d-block" *ngIf="displayErrorMessage">
+              No available this is pincode
+            </div>
+        </div>
+        
+        <div class="d-grid gap-2 m-4">
+            <button class="btn btn-primary " type="submit"  (click)="VerifyPincode()">Submit</button>
+            </div>
+          
+      </div>
+    </div>
+  </div> 

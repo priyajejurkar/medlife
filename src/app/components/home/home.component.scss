@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+.services{
+    width:70%;
+    cursor: pointer;
+   
+}
+.doctor {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 20px 10px 25px;
+    transition: all .5s;
+    width: 120px;
+    height: 120px;
+    bottom: 0;
+    box-shadow: 0 0 15px rgba(24,24,24,.161);
+}
+.gold-text{
+    color:goldenrod;
+    text-align: center;
+}
+.bi{
+    font-size: 25px;
+}
+.more{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    align-content: center;
+    padding: 3px 10px;
+    box-shadow: 0 0 15px rgba(24,24,24,.161);
+    transition: all .5s;
+    width: 50px;
+    height: 50px;
+  
+}
+.more:hover{
+    border-radius:30px;
+    padding: 3px 10px;
+}
+.heading{
+    width: 65%;
+    color: #050a4e;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+a .highlight-color {
+    color: #337ab7;
+    text-decoration: none;
+}
+h5 {
+    font-size: 72px;
+    // background: -webkit-linear-gradient(#4285f4, #db4437);
+    background: linear-gradient(104deg,#4285f4 4%,#db4437 35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  text-heading
+  {
+    color:#262c67;
+    font-size: 18px;
+    line-height: 23px!important;
+  }
+  button.gold {
+    background-color: #efcf58;
+    border-radius: 15px !important;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+  }
+  .info{
+    position:relative;
+    left: 25%;
+   top:40%;
+   }
+   .ins-text
+   {
+color:#262c67;   
+ font-size:32px;
+line-height: 35px;
+   }
+   .mdTxt{
+    color:#262c67;
+    font-size: 16px;
+    line-height: 23px!important;  
+   }
+
+   .img-position{
+    position: relative;
+    left:5rem;
+   }
